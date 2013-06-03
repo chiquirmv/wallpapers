@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
+    id        = "wallpapers"
     version   = "1.0.0">
 
-<name>PhoneGap Build Application</name>
-
+<name>Wallpapers </name>
+<icon src="images/icono.jpg" gap:platform="android" gap:density="ldpi" />
+<icon src="images/icono.jpg" gap:platform="android" gap:density="mdpi" />
+<icon src="images/icono.jpg" gap:platform="android" gap:density="hdpi" />
+<icon src="images/icono.jpg" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="images/splash.jpg" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="images/splash.jpg" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="images/splash.jpg" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="images/splash.jpg" gap:platform="android" gap:density="xhdpi" />
 <description>
-A simple PhoneGap Build application.
+Los mejores wallpapers para tu movil
 </description>
-
-<author href="https://example.com" email="you@example.com">
-Your Name
+<preference name="permissions" value="none" />
+<author href="https://www.webtormes.com" email="raulmarcos@webtormes.com">
+Raul Marcos
 </author>
 
 </widget>
+

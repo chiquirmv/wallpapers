@@ -85,27 +85,27 @@ img, object, embed, video {
 	height: auto;
 	width: 100%;
 	font-family: "Comic Sans MS", cursive;
-	font-size: 200px;
+	font-size: 60px;
 	color: #FFF;
 	text-align: center;
 }
 .images-portada {
 	float: left;
 	height: auto;
-	width: 47%;
+	width: 40%;
 	margin-top: 3%;
 	margin-left: 2%;
 	border: thick solid #FF0;
 }
 .images-final {
 	height: auto;
-	width: 100%;
+	width: 98%;
 	border: thick solid #FF0;
 }
 
 .texto-portada {
 	font-family: "Comic Sans MS", cursive;
-	font-size: 100px;
+	font-size: 35px;
 	color: #FFF;
 	text-align: center;
 	width: 100%;
